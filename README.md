@@ -11,6 +11,8 @@
 
 选中book.ps1文件，鼠标右击，选择“使用Powershell运行”，然后得到pdf文件。
 
+更多描述见：[简单的笔记脚本：从markdown到pdf](https://zhuanlan.zhihu.com/p/31982147)
+
 演示时运行环境：
 - Win 10
 - pandoc
