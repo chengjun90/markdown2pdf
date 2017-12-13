@@ -11,7 +11,7 @@
 
 选中book.ps1文件，鼠标右击，选择“使用Powershell运行”，然后得到pdf文件。
 
-运行环境：
-- Win
+演示时运行环境：
+- Win 10
 - pandoc
 - MiKTeX
