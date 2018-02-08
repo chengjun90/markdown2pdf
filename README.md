@@ -16,4 +16,65 @@
 演示时运行环境：
 - Win 10
 - pandoc
-- MiKTeX
+- TeX Live
+
+```PowerShell
+PS C:\Users\cheng> $PSVersionTable
+
+Name                           Value
+----                           -----
+PSVersion                      5.1.16299.98
+PSEdition                      Desktop
+PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0...}
+BuildVersion                   10.0.16299.98
+CLRVersion                     4.0.30319.42000
+WSManStackVersion              3.0
+PSRemotingProtocolVersion      2.3
+SerializationVersion           1.1.0.1
+
+PS C:\Users\cheng> xelatex --version
+XeTeX 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX)
+kpathsea version 6.2.3
+Copyright 2017 SIL International, Jonathan Kew and Khaled Hosny.
+There is NO warranty.  Redistribution of this software is
+covered by the terms of both the XeTeX copyright and
+the Lesser GNU General Public License.
+For more information about these matters, see the file
+named COPYING and the XeTeX source.
+Primary author of XeTeX: Jonathan Kew.
+Compiled with ICU version 58.2; using 58.2
+Compiled with zlib version 1.2.11; using 1.2.11
+Compiled with FreeType2 version 2.7.1; using 2.7.1
+Compiled with Graphite2 version 1.3.9; using 1.3.9
+Compiled with HarfBuzz version 1.4.6; using 1.4.6
+Compiled with libpng version 1.6.29; using 1.6.29
+Compiled with poppler version 0.52.0
+Compiled with fontconfig version 2.12.1; using 2.12.1
+
+PS C:\Users\cheng> pandoc --version
+pandoc.exe 2.1.1
+Compiled with pandoc-types 1.17.3, texmath 0.10.1, skylighting 0.6
+Default user data directory: C:\Users\cheng\AppData\Roaming\pandoc
+Copyright (C) 2006-2018 John MacFarlane
+Web:  http://pandoc.org
+This is free software; see the source for copying conditions.
+There is no warranty, not even for merchantability or fitness
+for a particular purpose.
+```
+
+PS1文件在PowerShell Core 6.0亦可运行。
+```PowerShell
+PS C:\Users\cheng> $PSVersionTable
+
+Name                           Value
+----                           -----
+PSVersion                      6.0.0
+PSEdition                      Core
+GitCommitId                    v6.0.0
+OS                             Microsoft Windows 10.0.16299
+Platform                       Win32NT
+PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0...}
+PSRemotingProtocolVersion      2.3
+SerializationVersion           1.1.0.1
+WSManStackVersion              3.0
+```
