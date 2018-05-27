@@ -1,4 +1,4 @@
-﻿\documentclass{ctexart}
+﻿\documentclass[12pt]{ctexart}
 
 $if(fontfamily)$
 \usepackage{$fontfamily$}
@@ -62,6 +62,14 @@ $endif$
 
 % 字体的设置，可以自行修改
 % \usepackage{xeCJK}
+% 【推荐】第一种设置
+% XeLaTeX在编译时会自动选择思源宋体的bold部分
+% 不设置monofont，因为有些字符在其他指定字符的出现变形，不如默认字体美观
+% \setCJKmainfont{思源宋体 CN}
+% \setCJKsansfont{思源黑体 CN}
+% \setmainfont{思源宋体 CN}
+% \setsansfont{思源黑体 CN}
+% 【列示】第二种设置
 % \setCJKmainfont{思源宋体}[BoldFont = 思源黑体 Regular]
 %\setCJKmonofont{思源黑体 Light}
 % \setCJKsansfont{思源黑体 Regular}
