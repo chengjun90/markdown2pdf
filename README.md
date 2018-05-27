@@ -53,6 +53,7 @@ author:
 ```
 
 pdf属性显示如下：
+
 ![pdf属性](markdown2pdf/image/yaml.jpg)
 
 ## template.tex是模板  
@@ -83,9 +84,11 @@ template.tex模板是从R语言包[rticles](https://cran.rstudio.com/web/package
 
 ## book.ps1
 - 方式1：选中book.ps1文件，鼠标右击，选择“使用Powershell运行”，然后得到pdf文件
+
 ![](markdown2pdf/image/ps.jpg)
 
 - 方式2：打开[VS Code](https://code.visualstudio.com)，点击运行；VS Code需要安装[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+
 ![](markdown2pdf/image/vscode.jpg)
 
 ## 字体下载
